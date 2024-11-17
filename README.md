@@ -1,7 +1,9 @@
-# CNBC Quote
+# CNBC Quote SDK
 
 ## Usage
 ```go
+import "github.com/ipanardian/cnbc-quote"
+
 var res cnbc.CnbcData
 cl := cnbc.NewCnbcQuote(CnbcURI)
 headers := make(map[string]string)
